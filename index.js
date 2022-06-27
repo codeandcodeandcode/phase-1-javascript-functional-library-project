@@ -69,3 +69,14 @@ function myFirst(arr, n) {
 function myKeys(obj) {
     return Object.keys(obj);
 }
+
+
+//Added myKeys function
+function myValues(obj) {
+    return Object.values(obj);
+}
+
+//tested
+//let c =myValues({one: 1, two: 2, three: 3});
+//console.log(c);
+//=> [3, 6, 9]
