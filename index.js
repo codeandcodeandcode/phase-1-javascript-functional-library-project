@@ -31,3 +31,14 @@ function myReduce(collection, callback, acc){
     });
     return acc;
 }
+
+
+//Added myFind func
+function myFind(collection, predicate) {
+    let c = checks(collection)
+    for (let k = 0; k < c.length; k++) {
+        if(predicate(c[k])) return c[k];
+        
+    }
+}
+
