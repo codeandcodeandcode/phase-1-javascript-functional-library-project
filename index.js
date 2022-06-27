@@ -11,3 +11,13 @@ function myEach(collection, callback){
     });
     return collection;
 }
+
+// Added myMap func 
+function myMap(collection, callback){
+    let j = [];
+    let c = checks(collection)
+    c.forEach(e => {
+        j.push(callback(e))
+    });
+    return j;
+}
