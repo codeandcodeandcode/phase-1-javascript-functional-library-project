@@ -42,3 +42,13 @@ function myFind(collection, predicate) {
     }
 }
 
+
+//Added myFilter func
+function myFilter(collection, predicate) {
+    let c = checks(collection)
+    let l = [];
+    for (let k = 0; k < c.length; k++) {
+        if(predicate(c[k]))  l.push(c[k]);
+    }
+    return l;
+}
