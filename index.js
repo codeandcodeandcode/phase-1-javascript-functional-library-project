@@ -52,3 +52,9 @@ function myFilter(collection, predicate) {
     }
     return l;
 }
+
+//Added mySize func
+function mySize(collection) {
+    let c = checks(collection)
+    return c.length;
+}
