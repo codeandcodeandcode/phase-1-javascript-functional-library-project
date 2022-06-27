@@ -58,3 +58,9 @@ function mySize(collection) {
     let c = checks(collection)
     return c.length;
 }
+
+//Added myFirst func
+function myFirst(arr, n) {
+    let c = n!==undefined?n:0;
+   return arr.slice(0,c)
+}
