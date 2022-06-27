@@ -64,3 +64,8 @@ function myFirst(arr, n) {
     let c = n!==undefined?n:0;
    return arr.slice(0,c)
 }
+
+//Added myKeys function
+function myKeys(obj) {
+    return Object.keys(obj);
+}
